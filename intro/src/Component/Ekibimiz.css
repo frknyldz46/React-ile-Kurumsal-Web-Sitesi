@@ -1,0 +1,71 @@
+
+.bodyekip{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+}
+
+.containerekip {
+  height: 450px;
+  width: 300px;
+  box-shadow: 0 5px 10px #fe7a5b;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  font-family: 'Abel', sans-serif;
+}
+
+.imageekip {
+  height: 100px;
+  width: 100px;
+  background-image: url('https://xp.io/storage/15pewlWA.jpg');
+  background-size: cover;
+  border-radius: 50%;
+  border: 8px solid white;
+  position: relative;
+  top: 200px;
+  margin-left: 170px;
+  box-shadow: 0 2px 15px rgb(58, 54, 54);
+  transform: rotate(-20deg);
+}
+
+.shape {
+  height: 250px;
+  width: 400px;
+  background-color: #fe7a5b;
+  margin-left: -20px;
+  position: relative;
+  top: -80px;
+  box-shadow: 0 2px 15px #fe7a5b;
+  transform: rotate(25deg);
+}
+
+.title {
+  color: rgb(105, 100, 109);
+}
+
+
+
+.icons {
+  margin-top: 15px;
+}
+
+.icons i {
+  margin-left: 10px;
+  font-size: 20px;
+  transition: 0.3s;
+  color: rgb(40, 163, 194);
+  ;
+}
+
+.icons i:hover {
+  transform: scale(1.1);
+  color: rgb(18, 192, 235);
+}

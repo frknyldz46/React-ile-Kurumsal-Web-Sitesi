@@ -1,0 +1,62 @@
+.imgAbout{
+  height:400px;
+  border-radius: 20px;
+  width: 100%;
+  
+  
+}
+.containerAbout{
+  display: flex;
+  flex-direction: row;
+  padding: 80px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  
+
+}
+.yazilarabout{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.yazilarabouticerik{
+  width: 100%;
+  word-wrap: break-word;
+}
+.buttonabout{
+  width: 150px;
+  padding: 15px;
+  background-color: #fea48f;
+  border:0;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width:768px) {
+  .imgAbout{
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .containerAbout{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .yazilarabout{
+  width: 80%;
+ }
+ .yazilarabouticerik{
+  width: 100%;
+ }
+
+ .buttonabout{
+  width: 100%;
+ }
+
+
+}

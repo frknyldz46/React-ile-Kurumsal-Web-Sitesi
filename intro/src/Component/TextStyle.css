@@ -1,0 +1,39 @@
+.box {
+    height: 68px;
+    position: relative;
+    width: 328px;
+}
+
+.iletisim-text {
+    height: 68px;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 332px;
+    
+}
+
+.bizeulasin {
+    color: #000000;
+    font-family: "JetBrains Mono-Regular";
+    font-size: 25px;
+    font-weight: 400;
+    left: 81px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+}
+
+.metin {
+    color: #000000b2;
+    font-family: "JetBrains Mono-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 50px;
+}
+

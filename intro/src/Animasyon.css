@@ -1,0 +1,11 @@
+.hidden-object {
+    opacity: 0;
+    transform: translateY(20px); /* Başlangıçta aşağı kaydırılmış pozisyon */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Animasyon süresi ve geçiş efekti */
+  }
+  
+  .visible-object {
+    opacity: 1;
+    transform: translateY(0); /* Aşağı kaydırılmış pozisyon */
+  }
+  

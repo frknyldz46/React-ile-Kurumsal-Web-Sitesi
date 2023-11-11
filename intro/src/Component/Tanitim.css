@@ -1,0 +1,27 @@
+.anacontainer {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.icerikler {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+@media screen and (max-width:768px) {
+    .anacontainer{
+        flex-direction: column;
+    }
+
+    
+}

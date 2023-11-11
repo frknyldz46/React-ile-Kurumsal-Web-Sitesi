@@ -1,0 +1,86 @@
+.boxcontact{
+display: flex;
+flex-direction: row;
+width: fit-content;
+padding: 30px;
+background-color: #EAEAEB;
+
+
+}
+
+.boxinfo{
+ margin-left: 50px;
+}
+
+.contactboxs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.contact{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.orsocial{
+  text-align: center;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+
+.accordion-button{
+    background-color: #64c6bb !important;
+    color: white !important;
+    font-weight: 700;
+    height: 90px;
+    
+    
+    
+}
+
+.accordion-header{
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+    
+    
+    
+    
+}
+
+.accordion{
+    margin-bottom: 150px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    --bs-accordion-btn-icon:url('./img/beyaz-ok.png') !important;
+    --bs-accordion-btn-active-icon:url('./img/beyaz-ok.png') !important;
+    --bs-accordion-btn-padding-x: 3rem !important
+    
+}
+
+.accordion-item:not(:first-of-type) {
+    border-top: 0;
+    border: 0;
+}
+.accordion-item:first-of-type{
+    border: 0;
+}
+
+@media screen and (max-width:768px) {
+    .boxcontact{
+        width: 100%;
+        margin-top: 15px;
+    }
+   
+    
+}
+
+
+

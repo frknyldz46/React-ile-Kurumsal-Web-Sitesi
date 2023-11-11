@@ -1,0 +1,36 @@
+.anaDiv {
+  background-image: url('./img/offer.1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-top: 60px;
+  
+}
+
+.yazilar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.button {
+  background-color: #94d8d1;
+  border: 0;
+  width: 180px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1e2224;
+  margin-top:25px
+ 
+}
+
+
+
+
+

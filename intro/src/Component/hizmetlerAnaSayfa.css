@@ -1,0 +1,61 @@
+.swiper {
+  width: 90% !important;
+  height: 100%;
+  
+  
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #eaeaeb;
+  padding: 40px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+.swipericerik{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  
+}
+
+.swiperbutton{
+  background-color: #64c1b7;
+  border: 0;
+  padding: 10px ;
+  width: 120px;
+  color: #fff;
+  border-radius: 15px;
+  margin-top: 25px;
+}
+.containerswiper{
+  background-image: url('./img/our.services.2.png');
+  background-size: cover;
+  padding: 90px;
+  width: 100%;
+}
+
+.servicesbaslik{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+
+
+

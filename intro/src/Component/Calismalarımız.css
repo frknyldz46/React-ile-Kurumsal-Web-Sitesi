@@ -1,0 +1,66 @@
+.birinciRoad{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.yazilarRoad{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-right: 20px;
+    width: 50%;
+    
+
+}
+
+.roadimg{
+    width: 300px;
+    height: 300px;
+}
+
+.daire{
+    width: 50px;
+    aspect-ratio: 1;
+    /* height: 50px; */
+    background-color: transparent;
+    border: 5px solid #fe390a;
+     border-radius: 100%;
+}
+
+.cizgi{
+    height: 100%;
+    background-color: #707476;
+    width: 4px;
+    
+}
+
+.linesroad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+@media screen and (max-width:768px) {
+    .birinciRoad{
+        display: flex;
+        
+    }
+    
+    .yazilarRoad{
+
+        padding: 20px;
+        
+    
+    }
+    .roadimg{
+        width: 100%;
+        height: auto;
+    }
+}
